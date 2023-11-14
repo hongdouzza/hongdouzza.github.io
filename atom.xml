@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-11-14T10:31:03.265Z</updated>
+  <updated>2023-11-14T12:34:23.363Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,12 @@
     <link href="http://example.com/posts/2cb79163.html"/>
     <id>http://example.com/posts/2cb79163.html</id>
     <published>2023-10-22T13:28:46.000Z</published>
-    <updated>2023-11-14T10:31:03.265Z</updated>
+    <updated>2023-11-14T12:34:23.363Z</updated>
     
-    <content type="html"><![CDATA[<p>大家好，我是hongdouzza~~~~~~</p><p>今天与大家正式见面</p><p>这是我的小小blog</p><p>希望把她变成一个大大的blog</p><p>希望多多支持</p><span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<p>douzza:第一份blog!</p><p>希望多多支持</p><span id="more"></span>]]></content>
     
     
-    <summary type="html">&lt;p&gt;大家好，我是hongdouzza~~~~~~&lt;/p&gt;
-&lt;p&gt;今天与大家正式见面&lt;/p&gt;
-&lt;p&gt;这是我的小小blog&lt;/p&gt;
-&lt;p&gt;希望把她变成一个大大的blog&lt;/p&gt;
+    <summary type="html">&lt;p&gt;douzza:第一份blog!&lt;/p&gt;
 &lt;p&gt;希望多多支持&lt;/p&gt;</summary>
     
     
