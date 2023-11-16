@@ -6,7 +6,7 @@
   <link href="https://hongdouzza.github.io/atom.xml" rel="self"/>
   
   <link href="https://hongdouzza.github.io/"/>
-  <updated>2023-11-14T12:35:44.361Z</updated>
+  <updated>2023-11-15T11:56:51.307Z</updated>
   <id>https://hongdouzza.github.io/</id>
   
   <author>
@@ -21,13 +21,14 @@
     <link href="https://hongdouzza.github.io/posts/2cb79163.html"/>
     <id>https://hongdouzza.github.io/posts/2cb79163.html</id>
     <published>2023-10-22T13:28:46.000Z</published>
-    <updated>2023-11-14T12:35:44.361Z</updated>
+    <updated>2023-11-15T11:56:51.307Z</updated>
     
-    <content type="html"><![CDATA[<p>douzza:第一份blog!</p><p>希望多多支持</p><span id="more"></span>]]></content>
+    <content type="html"><![CDATA[<p>douzza:第一份blog!</p><p>搞定github action自动部署！</p><p>希望多多支持<br><span id="more"></span></p>]]></content>
     
     
     <summary type="html">&lt;p&gt;douzza:第一份blog!&lt;/p&gt;
-&lt;p&gt;希望多多支持&lt;/p&gt;</summary>
+&lt;p&gt;搞定github action自动部署！&lt;/p&gt;
+&lt;p&gt;希望多多支持&lt;br&gt;</summary>
     
     
     
