@@ -6,7 +6,7 @@
   <link href="https://hongdouzza.github.io/atom.xml" rel="self"/>
   
   <link href="https://hongdouzza.github.io/"/>
-  <updated>2024-03-26T08:39:30.086Z</updated>
+  <updated>2024-03-26T13:40:43.918Z</updated>
   <id>https://hongdouzza.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TEST（博客又被我炸了，哈哈）</title>
+    <link href="https://hongdouzza.github.io/posts/cd52ad99.html"/>
+    <id>https://hongdouzza.github.io/posts/cd52ad99.html</id>
+    <published>2024-03-26T13:39:25.000Z</published>
+    <updated>2024-03-26T13:40:43.918Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>POST的md文档，没有自动生成html文档？或者说html文档内容为空</p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;测试&quot;&gt;&lt;a href=&quot;#测试&quot; class=&quot;headerlink&quot; title=&quot;测试&quot;&gt;&lt;/a&gt;测试&lt;/h2&gt;&lt;p&gt;POST的md文档，没有自动生成html文档？或者说html文档内容为空&lt;/p&gt;
+&lt;hr&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>学生管理系统（C）</title>
