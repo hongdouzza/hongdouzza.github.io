@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>学生管理系统（C）</title>
+      <link href="/posts/8810ab0d.html"/>
+      <url>/posts/8810ab0d.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="【C大作业】学生成绩管理系统（DDL：3-31）"><a href="#【C大作业】学生成绩管理系统（DDL：3-31）" class="headerlink" title="【C大作业】学生成绩管理系统（DDL：3.31）"></a>【C大作业】学生成绩管理系统（DDL：3.31）</h1><h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>背景设置：</p><ul><li>教学班学生人数和课程门数受限制：<strong>学生人数&lt;=50</strong>，<strong>课程门数&lt;=10</strong></li><li>采用<strong>链表</strong>构成所有学生记录</li><li>使用结构体表示每个学生信息（学号、姓名、考试成绩）</li></ul><p>系统具备的功能：</p><ul><li>增：增加后的记录&lt;=50</li><li>删：删除多条记录</li><li>查：按<strong>学号和姓名</strong>查询</li><li>改</li><li>计算每位学生成绩总分和平均分</li><li>计算每门课总分和平均分</li><li>对学生记录排序：按学号升序、按姓名字典排序、按成绩总分/平均分排序</li><li>对学生记录统计：按成绩总分/平均分统计各个分数段的人数、占比，统计各个分数段人数、占比</li><li>数据存储：记录存盘操作，从磁盘读取已有学生记录</li></ul><h2 id="业务流程分析"><a href="#业务流程分析" class="headerlink" title="业务流程分析"></a>业务流程分析</h2><h2 id="文件结构："><a href="#文件结构：" class="headerlink" title="文件结构："></a>文件结构：</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>java_Learning1</title>
       <link href="/posts/dc874005.html"/>
       <url>/posts/dc874005.html</url>
