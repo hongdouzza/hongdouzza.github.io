@@ -106,6 +106,17 @@
     
     <entry>
       <title></title>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
+      
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = " ( T﹏T ) 不要走！";    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = "(⑅˃◡˂⑅)欢迎回来！";    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/rightmenu.js"/>
       <url>/js/rightmenu.js</url>
       
@@ -121,17 +132,6 @@
       <url>/js/search/local-search.js</url>
       
         <content type="html"><![CDATA[const searchClickFn = () => {    document.querySelector('#search-button > .search').addEventListener('click', openSearch)    document.querySelector('#menu-search').addEventListener('click', openSearch)  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
-      
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = " ( T﹏T ) 不要走！";    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = "(⑅˃◡˂⑅)欢迎回来！";    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
       
     </entry>
     
