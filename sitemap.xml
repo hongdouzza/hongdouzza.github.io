@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hongdouzza.github.io/posts/52057b56.html</loc>
+    <loc>https://hongdouzza.github.io/posts/8cc9c8aa.html</loc>
+    
+    <lastmod>2024-04-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hongdouzza.github.io/music/index.html</loc>
     
     <lastmod>2024-04-01</lastmod>
     
@@ -20,9 +29,9 @@
   </url>
   
   <url>
-    <loc>https://hongdouzza.github.io/posts/8cc9c8aa.html</loc>
+    <loc>https://hongdouzza.github.io/posts/52057b56.html</loc>
     
-    <lastmod>2024-03-31</lastmod>
+    <lastmod>2024-04-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +94,7 @@
 
   <url>
     <loc>https://hongdouzza.github.io/</loc>
-    <lastmod>2024-04-01</lastmod>
+    <lastmod>2024-04-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
