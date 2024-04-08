@@ -6,7 +6,7 @@
   <link href="https://hongdouzza.github.io/atom.xml" rel="self"/>
   
   <link href="https://hongdouzza.github.io/"/>
-  <updated>2024-04-01T07:03:41.855Z</updated>
+  <updated>2024-04-08T15:04:33.853Z</updated>
   <id>https://hongdouzza.github.io/</id>
   
   <author>
@@ -17,12 +17,59 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>go_web开发学习</title>
+    <title>algorithms1</title>
+    <link href="https://hongdouzza.github.io/posts/b3c0369f.html"/>
+    <id>https://hongdouzza.github.io/posts/b3c0369f.html</id>
+    <published>2024-04-08T05:52:00.000Z</published>
+    <updated>2024-04-08T15:04:33.853Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="数据结构与算法学习1"><a href="#数据结构与算法学习1" class="headerlink" title="数据结构与算法学习1"></a>数据结构与算法学习1</h1><p>采用princton的Coursera课程：<a href="https://www.coursera.org/learn/algorithms-part1">algorithms1&amp;2</a></p><p>union-find:</p><ul><li>dynamic connecticity</li><li>quick find</li><li>quck union</li><li>improvemnts</li><li>applications</li></ul><h2 id="动态连通性"><a href="#动态连通性" class="headerlink" title="动态连通性"></a>动态连通性</h2><p>union commamd指令: 连接两个对象<br>find/connected query指令： 检查是否有两个对象连通的路径</p><p>应用场景：在编程时，将整数作为数组的索引时</p><h2 id="快速查找"><a href="#快速查找" class="headerlink" title="快速查找"></a>快速查找</h2><p>数据结构：</p><ul><li>长度为N的整数数组 id[]</li><li>当且仅当p和q的id值相同，表示p和q连通<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">QuickFind</span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span>[] id;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">QuickFind</span><span class="params">(<span class="type">int</span> N)</span>&#123;</span><br><span class="line">        id=<span class="keyword">new</span> <span class="title class_">int</span>[N];</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;N;i++)&#123;</span><br><span class="line">            id[i]=i;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">connected</span><span class="params">(<span class="type">int</span> p,<span class="type">int</span> q)</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> id[p]==id[q];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">Union</span><span class="params">(<span class="type">int</span> p,<span class="type">int</span> q)</span>&#123;</span><br><span class="line">        <span class="type">int</span> pid=id[p];</span><br><span class="line">        <span class="type">int</span> qid=id[q];</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;id.length;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(id[i]==pid)&#123;</span><br><span class="line">                id[i]=qid;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>快速查找too slow？</li><li>cost model: 初始化、union都需要遍历整个数组，复杂度正比于N；查找很快,复杂度为常数</li><li>union太expensive:N**2的复杂度</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;数据结构与算法学习1&quot;&gt;&lt;a href=&quot;#数据结构与算法学习1&quot; class=&quot;headerlink&quot; title=&quot;数据结构与算法学习1&quot;&gt;&lt;/a&gt;数据结构与算法学习1&lt;/h1&gt;&lt;p&gt;采用princton的Coursera课程：&lt;a href=&quot;https:/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>java学习记录2</title>
+    <link href="https://hongdouzza.github.io/posts/fd87d377.html"/>
+    <id>https://hongdouzza.github.io/posts/fd87d377.html</id>
+    <published>2024-04-08T02:45:38.000Z</published>
+    <updated>2024-04-08T15:04:33.855Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="【JAVA学习笔记2】-数组和java常用类"><a href="#【JAVA学习笔记2】-数组和java常用类" class="headerlink" title="【JAVA学习笔记2】 数组和java常用类"></a>【JAVA学习笔记2】 数组和java常用类</h1><h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p>数组的概念：</p><ul><li>一维数组</li><li>二维数组</li><li>Arrays类</li><li>包装类</li><li>字符串类<br>集合类</li></ul><p>数组长度不可变</p><h3 id="对象数组"><a href="#对象数组" class="headerlink" title="对象数组"></a>对象数组</h3><p>数组初始化：int[]x={1,2,3,4};  (静态初始化)<br>声明时不能指定数组长度<br>动态初始化：int []x=new int[12];</p><p>垃圾内存（释放）</p><p>for each语句<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> []a=<span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">3</span>];</span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i:arr)&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;【JAVA学习笔记2】-数组和java常用类&quot;&gt;&lt;a href=&quot;#【JAVA学习笔记2】-数组和java常用类&quot; class=&quot;headerlink&quot; title=&quot;【JAVA学习笔记2】 数组和java常用类&quot;&gt;&lt;/a&gt;【JAVA学习笔记2】 数组和java常</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mysql学习记录1</title>
     <link href="https://hongdouzza.github.io/posts/52057b56.html"/>
     <id>https://hongdouzza.github.io/posts/52057b56.html</id>
     <published>2024-04-01T06:59:12.000Z</published>
-    <updated>2024-04-01T07:03:41.855Z</updated>
+    <updated>2024-04-07T15:46:07.902Z</updated>
     
+    <content type="html"><![CDATA[<p>这不是mysql学习记录<br>这是mysql<strong>重装记录</strong>。。。。。。<br>半年前装的mysql，密码忘了。开管理员权限怎么也无法跳过密码（纯怨种）。看了日志，说mysql配置出了问题，还可能数据损坏了….这怎么问题越挖越多。咱就是说人越菜，挖的坑越多。</p><p>准备重装了，原来卸载也比较繁琐：删库、删注册表、删软件</p><p>明天重装了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这不是mysql学习记录&lt;br&gt;这是mysql&lt;strong&gt;重装记录&lt;/strong&gt;。。。。。。&lt;br&gt;半年前装的mysql，密码忘了。开管理员权限怎么也无法跳过密码（纯怨种）。看了日志，说mysql配置出了问题，还可能数据损坏了….这怎么问题越挖越多。咱就是说人越菜，</summary>
+      
     
     
     
