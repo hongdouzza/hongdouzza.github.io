@@ -229,17 +229,6 @@
     
     <entry>
       <title></title>
-      <link href="/manifest.json"/>
-      <url>/manifest.json</url>
-      
-        <content type="html"><![CDATA[{"name":"红豆zza~Blog","short_name":"红豆zza","theme_color":"#3b70fc","background_color":"#3b70fc","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
       
@@ -262,21 +251,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/anzhiyu.js"/>
-      <url>/js/anzhiyu.js</url>
+      <link href="/manifest.json"/>
+      <url>/manifest.json</url>
       
-        <content type="html"><![CDATA[var anzhiyu = {    // 音乐节目切换背景    changeMusicBg: function (isChangeBg = true) {      if (window.location.pathname != "/music/") {        return;      }      const anMusicBg = document.getElementById("an_music_bg");        if (isChangeBg) {        // player listswitch 会进入此处        const musiccover = document.querySelector("#anMusic-page .aplayer-pic");        anMusicBg.style.backgroundImage = musiccover.style.backgroundImage;      } else {        // 第一次进入，绑定事件，改背景        let timer = setInterval(() => {          const musiccover = document.querySelector("#anMusic-page .aplayer-pic");          // 确保player加载完成          console.info(anMusicBg);          if (musiccover) {            clearInterval(timer);            anMusicBg.style.backgroundImage = musiccover.style.backgroundImage;            // 绑定事件            anzhiyu.addEventListenerChangeMusicBg();              // 暂停nav的音乐            if (              document.querySelector("#nav-music meting-js").aplayer &&              !document.querySelector("#nav-music meting-js").aplayer.audio.paused            ) {              anzhiyu.musicToggle();            }          }        }, 100);      }    },    addEventListenerChangeMusicBg: function () {      const anMusicPage = document.getElementById("anMusic-page");      const aplayerIconMenu = anMusicPage.querySelector(".aplayer-info .aplayer-time .aplayer-icon-menu");        anMusicPage.querySelector("meting-js").aplayer.on("loadeddata", function () {        anzhiyu.changeMusicBg();        console.info("player loadeddata");      });        aplayerIconMenu.addEventListener("click", function () {        document.getElementById("menu-mask").style.display = "block";        document.getElementById("menu-mask").style.animation = "0.5s ease 0s 1 normal none running to_show";      });        document.getElementById("menu-mask").addEventListener("click", function () {        if (window.location.pathname != "/music/") return;        anMusicPage.querySelector(".aplayer-list").classList.remove("aplayer-list-hide");      });    },  };    // 调用  anzhiyu.changeMusicBg(false);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
-      
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = " ( T﹏T ) 不要走！";    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = "(⑅˃◡˂⑅)欢迎回来！";    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+        <content type="html"><![CDATA[{"name":"红豆zza~Blog","short_name":"红豆zza","theme_color":"#3b70fc","background_color":"#3b70fc","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
       
     </entry>
     
@@ -305,11 +283,11 @@
     
     
     <entry>
-      <title>音乐馆</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title></title>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = " ( T﹏T ) 不要走！";    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = "(⑅˃◡˂⑅)欢迎回来！";    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
       
     </entry>
     
@@ -321,6 +299,28 @@
       <url>/js/search/local-search.js</url>
       
         <content type="html"><![CDATA[const searchClickFn = () => {    document.querySelector('#search-button > .search').addEventListener('click', openSearch)      }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/anzhiyu.js"/>
+      <url>/js/anzhiyu.js</url>
+      
+        <content type="html"><![CDATA[var anzhiyu = {    // 音乐节目切换背景    changeMusicBg: function (isChangeBg = true) {      if (window.location.pathname != "/music/") {        return;      }      const anMusicBg = document.getElementById("an_music_bg");        if (isChangeBg) {        // player listswitch 会进入此处        const musiccover = document.querySelector("#anMusic-page .aplayer-pic");        anMusicBg.style.backgroundImage = musiccover.style.backgroundImage;      } else {        // 第一次进入，绑定事件，改背景        let timer = setInterval(() => {          const musiccover = document.querySelector("#anMusic-page .aplayer-pic");          // 确保player加载完成          console.info(anMusicBg);          if (musiccover) {            clearInterval(timer);            anMusicBg.style.backgroundImage = musiccover.style.backgroundImage;            // 绑定事件            anzhiyu.addEventListenerChangeMusicBg();              // 暂停nav的音乐            if (              document.querySelector("#nav-music meting-js").aplayer &&              !document.querySelector("#nav-music meting-js").aplayer.audio.paused            ) {              anzhiyu.musicToggle();            }          }        }, 100);      }    },    addEventListenerChangeMusicBg: function () {      const anMusicPage = document.getElementById("anMusic-page");      const aplayerIconMenu = anMusicPage.querySelector(".aplayer-info .aplayer-time .aplayer-icon-menu");        anMusicPage.querySelector("meting-js").aplayer.on("loadeddata", function () {        anzhiyu.changeMusicBg();        console.info("player loadeddata");      });        aplayerIconMenu.addEventListener("click", function () {        document.getElementById("menu-mask").style.display = "block";        document.getElementById("menu-mask").style.animation = "0.5s ease 0s 1 normal none running to_show";      });        document.getElementById("menu-mask").addEventListener("click", function () {        if (window.location.pathname != "/music/") return;        anMusicPage.querySelector(".aplayer-list").classList.remove("aplayer-list-hide");      });    },  };    // 调用  anzhiyu.changeMusicBg(false);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐馆</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
